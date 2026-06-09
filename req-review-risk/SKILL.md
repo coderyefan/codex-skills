@@ -104,6 +104,9 @@ Style guidelines: clean modern UI, blue-purple gradient header, color-coded tags
 
 ## Rules
 
+- If the original requirement text exceeds 15 lines, wrap the blockquote in details/summary with line count (e.g. '点击展开需求原文（共28行）'), default collapsed. In print media, auto-expand.
+
+
 - Cite original text verbatim in `原文引用`, do not paraphrase.
 - One finding per row. Multiple issues in one sentence = multiple rows.
 - Be specific in suggestions: state exactly what to add, not just "be clearer".
